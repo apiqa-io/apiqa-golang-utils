@@ -1,4 +1,4 @@
-package apiqa_golang_utils
+package golang_helpers
 
 import (
 	"io"
