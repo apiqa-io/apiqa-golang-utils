@@ -19,3 +19,8 @@ type UnknownRestError struct {
 	Code    string `json:"code"`
 	Message error  `json:"message,omitempty"`
 }
+
+type NonFieldRestError struct {
+	Code    string `json:"code"`
+	Message string  `json:"message,omitempty"`
+}
